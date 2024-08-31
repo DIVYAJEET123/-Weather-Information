@@ -53,6 +53,9 @@ searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 });
 
+
 // searchBox.addEventListener("keypress", setQuery);
+
+
 
 
