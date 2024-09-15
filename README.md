@@ -34,3 +34,6 @@ This simple web app provides accurate and up-to-date weather information, includ
 ## License
 
 * **[Optional: Choose a license for your project and mention it here. E.g., MIT License]**
+
+
+this is a readme file of the weather information app
