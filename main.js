@@ -14,15 +14,16 @@ async function checkWeather(city){
     var data = await response.json();
    
     
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:3358242397.
+
     document.querySelector(".city").innerHTML = data.name;
     document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
+
 // Suggested code may be subject to a license. Learn more: ~LicenseLog:1593924010.
+    
     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
     document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
     
 
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:2042470996.
 if(data.weather[0].main == "Clouds"){
     weatherIcon.src = "images/clouds.png";
 }
