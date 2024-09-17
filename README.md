@@ -1,4 +1,4 @@
-# Simple Weather App
+# CLoudPoint - Weather App
 
 This simple web app provides accurate and up-to-date weather information, including:
 
